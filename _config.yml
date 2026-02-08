@@ -1,10 +1,3 @@
 title: "Ibrahim's Blog"
 description: "My first GitHub Pages blog"
 theme: jekyll-theme-cayman
-
-# خلي Jekyll يقرأ المقالات من مجلد post
-collections:
-  posts:
-    output: true
-    permalink: /:title/
-    source: _posts
