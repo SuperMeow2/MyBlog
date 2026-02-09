@@ -1,4 +1,11 @@
 body {
   direction: rtl;
   text-align: right;
+  font-family: "Courier New", monospace; /* مناسب مع theme hacker */
+}
+
+/* تنسيقات إضافية للعناوين */
+h1, h2, h3, h4, h5, h6 {
+  direction: rtl;
+  text-align: right;
 }
