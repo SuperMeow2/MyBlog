@@ -1,2 +1,17 @@
-<link rel="stylesheet" href="/assets/css/rtl.css">
-theme: jekyll-theme-hacker
+# إعدادات المدونة
+title: "My Blog"
+description: "مراجعات واختبارات بالعربي"
+baseurl: "" # لا تغير
+url: "https://supermeow2.github.io/MyBlog" # رابط موقعك
+
+# الثيم RTL
+remote_theme: radmanesh/jekyll-theme-bootstrap-rtl
+
+# إعدادات Jekyll
+plugins:
+  - jekyll-feed
+
+# خيارات أخرى
+markdown: kramdown
+kramdown:
+  input: GFM
